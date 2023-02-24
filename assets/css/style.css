@@ -441,22 +441,19 @@ a:hover {
 }
 
 .featured-details-div {
-    margin-top: 15px;
-    background: rgba(240, 92, 38, 0.05);
+    margin-top: 10px;
+    background: rgba(240, 92, 38, 0.1);
     border-radius: 4px;
-    padding: 0px 25px;
+    padding: 30px 25px 5px;
 }
 
 .featured-info {
-    padding-top: 25px;
+    /* padding-top: 50px; */
     /* padding-left: 24px; */
-    border-bottom: 0.5px solid #C4C4C4;
+
 }
 
-.featured-info:last-child {
-    border-bottom: none;
-    padding-bottom: 25px;
-}
+
 
 .featured-info h4 {
     font-weight: 400;
@@ -477,6 +474,12 @@ a:hover {
     display: flex;
     column-gap: 10px;
     margin-bottom: 8px;
+    border-bottom: 0.5px solid #C4C4C4;
+}
+
+.featured-info-name-last-child {
+    border-bottom: none;
+    padding-bottom: 25px;
 }
 
 .featured-info-name p {
